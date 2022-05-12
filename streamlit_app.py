@@ -53,7 +53,7 @@ streamlit.dataframe(fruityvice_normalized)
 
 
 
-import snowflake.connector
+import snowflake.connector.connect
 
 
 my_cnx = snowflake.connector.connect(**streamlit.secrets["snowflake"])
